@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#96919D</color>
+    <color name="grey01">#DEDEDF</color>
+    <color name="purpleText">#6B4EFF</color>
+    <color name="purple">#6B4EFF</color>
+    <color name="purple_light">#E8E1FF</color>
 </resources>

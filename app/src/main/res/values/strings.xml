@@ -8,8 +8,18 @@
     <string name="info">info</string>
     <string name="permission">Permission</string>
     <string name="email">Email</string>
-    <string name="profile_text">We use this info to tailor categorization and suggest \n smart rules based on your work.</string>
+    <string name="continue_btn">Continue</string>
+    <string name="profile_text">We use this info to tailor categorization and suggest \nsmart rules based on your work.</string>
     <string name="drop_down_1">What are you hoping to achieve?</string>
     <string name="drop_down_2">Who are you, how do you work?</string>
     <string name="drop_down_3">What sector do you primarily operate in?</string>
+    <string name="email_text">Connect to your email to unlock automatic receipt and invoice detection. No more forwarding or manual uploads.</string>
+    <string name="gmail_text">Connect Google \nWorkspace (Gmail)</string>
+    <string name="outlook_text">Connect Microsoft \n365 (Outlook)</string>
+    <string name="mail_calendar">Mail + Calendar</string>
+    <string name="gmail">Gmail</string>
+    <string name="email_bottom_text">We\'ll only scan for receipts-not your personal emails. \nYour credentials are never shared with us.</string>
+    <string name="add">add</string>
+    <string name="lock">lock</string>
+
 </resources>

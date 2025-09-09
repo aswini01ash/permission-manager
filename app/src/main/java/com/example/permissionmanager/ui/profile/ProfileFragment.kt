@@ -24,7 +24,10 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        setupDropdowns()
+    }
 
+    private fun setupDropdowns() {
         val achieveOptions = listOf(
             "Separate personal and business",
             "Career Growth",
