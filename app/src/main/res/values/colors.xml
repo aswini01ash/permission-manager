@@ -7,4 +7,5 @@
     <color name="purpleText">#6B4EFF</color>
     <color name="purple">#6B4EFF</color>
     <color name="purple_light">#E8E1FF</color>
+    <color name="screen_background">#F4F3F8</color>
 </resources>

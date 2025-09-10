@@ -21,5 +21,15 @@
     <string name="email_bottom_text">We\'ll only scan for receipts-not your personal emails. \nYour credentials are never shared with us.</string>
     <string name="add">add</string>
     <string name="lock">lock</string>
+    <string name="permission_text">Enable access to automate receipt capture and \nmileage tracking. No manual uploads.</string>
+    <string name="camera_text">To instantly scan paper receipts \nwithout manual uploads</string>
+    <string name="camera">Camera</string>
+    <string name="message">Messages</string>
+    <string name="photo">Photos</string>
+    <string name="location">Location</string>
+    <string name="permission_bottom_text">You\'ll now see system permission popups. Please allow access to keep things automatic and organized from day one.</string>
+    <string name="photo_text">To detect and organize receipts \nalready saved in your phone\'s \ngallery</string>
+    <string name="message_text">To auto-detect receipts and \nconfirmations sent via text-no \nsearching required</string>
+    <string name="location_text">To log where transactions happen \nand auto-tag trips or visits</string>
 
 </resources>
