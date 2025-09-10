@@ -27,9 +27,46 @@
     <string name="message">Messages</string>
     <string name="photo">Photos</string>
     <string name="location">Location</string>
+    <string name="sms">SMS</string>
+    <string name="settings_error">Could not open settings</string>
+    <string name="storage">Storage</string>
     <string name="permission_bottom_text">You\'ll now see system permission popups. Please allow access to keep things automatic and organized from day one.</string>
     <string name="photo_text">To detect and organize receipts \nalready saved in your phone\'s \ngallery</string>
     <string name="message_text">To auto-detect receipts and \nconfirmations sent via text-no \nsearching required</string>
     <string name="location_text">To log where transactions happen \nand auto-tag trips or visits</string>
+    <string name="status">Status</string>
+    <string name="denied">Denied</string>
+    <string name="granted">granted</string>
+    <string name="btn_clicked">Button Clicked</string>
+
+<!-- Drop down text -->
+    <string-array name="achieve_options">
+        <item>Separate personal and business</item>
+        <item>Career Growth</item>
+        <item>Manage finances better</item>
+    </string-array>
+
+    <string-array name="who_options">
+        <item>Freelancer / Independent Contractor</item>
+        <item>Full - Time</item>
+        <item>Part - Time Employee</item>
+    </string-array>
+
+    <string-array name="sector_options">
+        <item>Real Estate (Agents, Property Management)</item>
+        <item>IT &amp; Software</item>
+        <item>Healthcare</item>
+    </string-array>
+
+
+    <!--Alert box text-->
+    <string name="dialog_permission_title">Permission Required!</string>
+    <string name="dialog_permission_message">%1$s permission is needed for this app to function properly. Would you like to grant it?</string>
+    <string name="dialog_permission_grant">Grant</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_disable_permission_title">Disable %1$s Permission</string>
+    <string name="dialog_disable_permission_message">To disable this permission, you need to go to App Settings. Would you like to open settings now?</string>
+    <string name="dialog_open_settings">Open Settings</string>
+
 
 </resources>
