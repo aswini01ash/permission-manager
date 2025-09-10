@@ -57,10 +57,6 @@ class PermissionFragment : Fragment() {
             handleSwitchToggle(Manifest.permission.CAMERA, isChecked)
         }
 
-        binding.switchPhoto.setOnCheckedChangeListener { _, isChecked ->
-            handleSwitchToggle(getStoragePermission(), isChecked)
-        }
-
         binding.switchMsg.setOnCheckedChangeListener { _, isChecked ->
             handleSwitchToggle(Manifest.permission.SEND_SMS, isChecked)
         }
@@ -71,10 +67,6 @@ class PermissionFragment : Fragment() {
 
         binding.layCameraPermission.setOnClickListener {
             handlePermissionRequest(Manifest.permission.CAMERA)
-        }
-
-        binding.layPhotosPermission.setOnClickListener {
-            handlePermissionRequest(getStoragePermission())
         }
 
         binding.layMsgPermission.setOnClickListener {
@@ -100,13 +92,6 @@ class PermissionFragment : Fragment() {
             binding.ivCameraIcon,
             binding.tvCameraStatus,
             binding.switchCamera
-        )
-
-        updatePermissionUI(
-            getStoragePermission(),
-            binding.ivPhotoIcon,
-            binding.tvPhotoStatus,
-            binding.switchPhoto
         )
 
         updatePermissionUI(
@@ -145,7 +130,7 @@ class PermissionFragment : Fragment() {
             statusText.setTextColor(
                 ContextCompat.getColor(
                     requireContext(),
-                    android.R.color.holo_green_dark
+                    R.color.green
                 )
             )
             switch.isChecked = true
@@ -155,7 +140,7 @@ class PermissionFragment : Fragment() {
             statusText.setTextColor(
                 ContextCompat.getColor(
                     requireContext(),
-                    android.R.color.holo_red_dark
+                    R.color.red
                 )
             )
             switch.isChecked = false

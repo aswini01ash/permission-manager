@@ -4,16 +4,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#96919D</color>
     <color name="grey01">#DEDEDF</color>
+    <color name="screen_background">#F4F3F8</color>
     <color name="purpleText">#6B4EFF</color>
     <color name="purple">#6B4EFF</color>
     <color name="purple_light">#E8E1FF</color>
-    <color name="screen_background">#F4F3F8</color>
-
-
     <color name="red">#ED0808</color>
     <color name="green">#05C10C</color>
-    <color name="green_light">#87E792</color>
-    <color name="red_light">#C15C5C</color>
 
 
 </resources>

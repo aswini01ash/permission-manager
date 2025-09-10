@@ -9,5 +9,4 @@ object ToastUtil {
     fun shortToast(context: Context, @StringRes resId: Int) {
         Toast.makeText(context, context.getString(resId), Toast.LENGTH_SHORT).show()
     }
-
 }
