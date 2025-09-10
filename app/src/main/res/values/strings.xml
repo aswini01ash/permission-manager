@@ -39,26 +39,6 @@
     <string name="granted">granted</string>
     <string name="btn_clicked">Button Clicked</string>
 
-<!-- Drop down text -->
-    <string-array name="achieve_options">
-        <item>Separate personal and business</item>
-        <item>Career Growth</item>
-        <item>Manage finances better</item>
-    </string-array>
-
-    <string-array name="who_options">
-        <item>Freelancer / Independent Contractor</item>
-        <item>Full - Time</item>
-        <item>Part - Time Employee</item>
-    </string-array>
-
-    <string-array name="sector_options">
-        <item>Real Estate (Agents, Property Management)</item>
-        <item>IT &amp; Software</item>
-        <item>Healthcare</item>
-    </string-array>
-
-
     <!--Alert box text-->
     <string name="dialog_permission_title">Permission Required!</string>
     <string name="dialog_permission_message">%1$s permission is needed for this app to function properly. Would you like to grant it?</string>
@@ -67,6 +47,5 @@
     <string name="dialog_disable_permission_title">Disable %1$s Permission</string>
     <string name="dialog_disable_permission_message">To disable this permission, you need to go to App Settings. Would you like to open settings now?</string>
     <string name="dialog_open_settings">Open Settings</string>
-
 
 </resources>
